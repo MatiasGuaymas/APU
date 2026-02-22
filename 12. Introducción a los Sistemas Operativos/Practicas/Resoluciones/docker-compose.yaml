@@ -1,0 +1,6 @@
+services:
+    deb:
+        build: . 
+        volumes:
+            - ./:/ISO
+        command: sh -c "tail -F anything"p
