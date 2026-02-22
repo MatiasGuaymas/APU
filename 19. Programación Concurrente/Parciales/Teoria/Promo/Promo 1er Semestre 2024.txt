@@ -1,0 +1,17 @@
+
+1- los 4 características de la sección critica, los algoritmos ticket, bakery y tie breaker y cuales eran las ventajas de estos contra los spin locks
+2- variables de los pthreads y como simular un monitor
+3- explicar q hacia un broadcast de mpi con 8 procesos a los q se le mandaba un número 
+
+Lo que hacía el broadcast para mandar un mismo número a 8 procesos es:
+Utilizar la función MPI_BCAST desde un proceso "fuente" que enviará el número a los demás procesos. La función BCAST necesita ciertos parámetros,
+ estos son: "void *buf" donde se indica la variable que contiene el número, "int cantidad" donde se tiene que especificar la cantidad de datos que enviamos,
+ en este caso mandamos 1 porque es un solo dato, "MPI_Datatype tipoDato" donde se debe especificar el tipo de dato, en este caso podría ser MPI_INT,
+ "int origen" donde se tiene que especificar el rank o id del proceso que envía, por ejemplo 0 para que lo envíe el proceso 0, y por último el parámetro
+ "MPI_Comm comunicador" donde se tiene que especificar el Comunicador que se va utilizar para enviar el mensaje, ya que queremos enviar un mensaje a todos
+ los procesos podemos usar el comunicador MPI_COMM_WORLD.
+
+El otro punto importante para poder realizar el mensaje broadcast es que todos los demás procesos que no sean el proceso que envía el mensaje broadcast 
+tienen que llamar a la función MPI_Bcast de forma sincronizada para poder evitar bloqueos o comportamientos indefinidos.
+
+4- hacer un heartbeat de una matriz nxn para calcular la esquina con mayor cantidad de autos y la esquina con menor cantidad de motos

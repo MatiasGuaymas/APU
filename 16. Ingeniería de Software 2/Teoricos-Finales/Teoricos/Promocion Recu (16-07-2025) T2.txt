@@ -1,0 +1,7 @@
+En el tema 2 pidieron
+
+1) nombrar 4 características de un srs
+2) nombrar las 4P y marcar la más importante 
+3) explicar cómo funciona cliente-servidor e indicar los participantes 
+4) explicar cómo se usa una prueba de valores límite 
+5) nombrar y explicar las 3 reglas doradas

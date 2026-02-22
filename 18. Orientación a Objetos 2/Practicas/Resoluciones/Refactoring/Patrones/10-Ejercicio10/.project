@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>10-Ejercicio10-objetos</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/main/java/ar/edu/unlp/info/oo2/_Ejercicio10/FeistelCipher.java</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Encriptador/src/main/java/ar/info/juego/Encriptador/FeistelCipher.java</locationURI>
+		</link>
+		<link>
+			<name>src/main/java/ar/edu/unlp/info/oo2/_Ejercicio10/RC4.java</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Encriptador/src/main/java/ar/info/juego/Encriptador/RC4.java</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

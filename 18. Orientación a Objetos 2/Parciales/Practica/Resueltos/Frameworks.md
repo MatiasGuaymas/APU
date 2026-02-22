@@ -1,0 +1,20 @@
+## Parcial EmailFilter
+1. El comportamiento variable del framework (hotspots) está implementado mediante herencia, ya que el framework utiliza un método plantilla (filterEmail) que define el flujo de control, y los hotspots, como el método abstracto isEmailAllowed, deben ser implementados por las subclases que extienden EmailFilter.
+2. La inversión de control (IoC) se encuentra en la línea 9 y línea 10, donde el método filterEmail llama al los métodos abstracto s isEmailAllowed y addEmail. Esto delega la lógica de decisión a las subclases, invirtiendo el control del flujo de ejecución.
+3. Sí, el método isEmailAllowed es un hotspot, porque es un método abstracto que las subclases deben implementar, permitiendo personalizar el comportamiento del framework (la lógica para determinar si un correo es permitido). Los ganchos implementan lo que varía del framework (hotspot).
+
+## Parcial API - Permission
+1. El comportamiento variable del framework (hotspots) está implementado mediante composición, ya que API utiliza una lista de objetos Permission para verificar los permisos, delegando el comportamiento variable a estos objetos en lugar de heredarlo.
+2. Sí, se observan hook methods. El método allowsAccess(Request request) de la interfaz Permission es un hook method, ya que permite a las implementaciones de Permission personalizar la lógica de verificación de permisos que utiliza API. Lo mismo ocurre con el método throwException(Request request).
+3. La parte que se corresponde con el frozenspot es el flujo de control definido en el método processRequest de API, que establece cómo se procesa una solicitud (verificar permisos y retornar un estado HTTP 200 o 403), y la lógica de iteración en checkPermissions, que no puede ser modificada por los usuarios del framework. Las plantillas implementan lo que se mantiene constante (frozenspot).
+4. La inversión de control se encuentra en el método checkPermissions de API, donde el framework llama al método allowsAccess de los objetos Permission. Esto delega la lógica de verificación de permisos a las implementaciones de Permission proporcionadas por el usuario, mientras que el framework mantiene el control del flujo general. Siguiendo también se puede mencionar el método throwException de la línea de abajo.
+
+## Parcial TestCase - Test
+1. a. Parte del frozenspot. El método runTests() en la clase TestCase controla el flujo general de ejecución, llamando a setUp() antes de cada test.run() y a tearDown() después. Esto está definido por el framework y no puede ser modificado por el programador.
+b. Parte de un hotspot. El programador debe sobrescribir el método setUp() en una subclase de Test para definir la preparación específica, si es necesario. Esto es un punto de extensión personalizado por el usuario.
+c. Parte del frozenspot. La clase Test es abstracta, lo que significa que no puede instanciarse directamente y debe ser extendida por una subclase concreta que implemente sus métodos abstractos (como run()). Esto es una característica estructural del framework, definida por su diseño y no modificable por el programador.
+d. Parte del frozenspot. El método runTests() en TestCase itera sobre la lista de tests y ejecuta cada test.run() (como se ve en el código: for(Test test : tests) { test.run(); }). Esto es parte del flujo fijo del framework.
+e. Parte de un hotspot. Al definir una prueba, el programador implementa run() para especificar los pasos, utilizando los asserts proporcionados.
+2. Sí, se observan métodos gancho. Los métodos son setUp(), tearDown() y test(), que el programador puede sobrescribir en las subclases de Test para personalizar la preparación y el desarmado.
+3. Sí, se observa inversión de control. Se encuentra en la llamada a test.run() dentro de runTests(), y en las invocaciones a setUp(), test() y tearDown() por el framework.
+4. Caracterizaría el framework como caja blanca, porque el programador debe entender el flujo de ejecución (ejecución de setUp(), run(), y tearDown()) y personalizar los métodos gancho para usarlo, aunque el flujo general está fijo y no se puede modificar.

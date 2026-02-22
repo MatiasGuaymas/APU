@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>01-Ejercicio1</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/main/java/ar/edu/unlp/info/oo1/ejercicio1/Biblioteca.java</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/pepe/ej-biblioteca/src/main/java/ar/edu/unlp/info/oo2/biblioteca/Biblioteca.java</locationURI>
+		</link>
+		<link>
+			<name>src/main/java/ar/edu/unlp/info/oo1/ejercicio1/Socio.java</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/pepe/ej-biblioteca/src/main/java/ar/edu/unlp/info/oo2/biblioteca/Socio.java</locationURI>
+		</link>
+		<link>
+			<name>src/main/java/ar/edu/unlp/info/oo1/ejercicio1/VoorheesExporter.java</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/pepe/ej-biblioteca/src/main/java/ar/edu/unlp/info/oo2/biblioteca/VoorheesExporter.java</locationURI>
+		</link>
+		<link>
+			<name>src/test/java/ar/edu/unlp/info/oo1/ejercicio1/BibliotecaTest.java</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/pepe/ej-biblioteca/src/test/java/ar/edu/unlp/info/oo2/biblioteca/BibliotecaTest.java</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

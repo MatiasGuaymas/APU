@@ -1,0 +1,9 @@
+Final de Ingenieria 2. (24/4/2013).
+
+1) Describa el problema de las “4 p”.
+2)¿Cuáles son los elementos claves de la gestión de proyectos?
+3)Describa el modelo MOI.
+4)¿Que define el diseño arquitectónico? Describa los tipos de Organización del Sistema.
+5)Enumere y describa los principios de Diseño.
+6)Defina y describa GCS.
+7)Ejercicio de PERT: Hallar tiempos tempranos - tardíos - caminos críticos y duración total del proyecto.

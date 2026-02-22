@@ -1,0 +1,32 @@
+27/02/2013
+Completo:
+1. ¿Que es la planificacion?¿Cuales son los objetivos de la planificacion temporal y organizacional?.
+2. ¿Que es el diseño? Defina acoplamiento y cohesion y sus diferentes grados.
+3. ¿Que es la GCS?
+4. ¿Que son los riesgos?¿Como se clasifican?. Ejemplifique.
+5. Defina estimacion y los tipos de estimacion que conoce.
+6. ¿Que es el mantenimiento? Defina el rejuvenecimiento.
+7. Calcular camino critico (PERT + CMP)
+
+Las preguntas no estan en orden ni redactadas igual que en el final.
+
+
+
+Final de IS2 - Completo y reducido - 6/2/13
+
+Completo:
+1. Enumere y describa las técnicas de estimación que conozca.
+2. Que es la gestión de configuración. Defina línea de base. Ejemplifique.
+3. Describa rejuvenecimiento.
+4. Una empresa de software (bla bla bla) lleva un proyecto con requisitos muy estrictos (bla bla) pero no tiene el personal necesario para cierto proyecto. Analice la siguiente situación: Es imposible encontrar el personal con las habilidades adecuadas.
+a) Analice el riesgo.
+b) Planifique (Estrategias de tratamientos de riesgos).
+5. Que consideraciones se deberían tener en cuenta a la hora de desarrollar una interfaz de usuario.
+6. Diferencie Modelo de Repositorio y Modelo Cliente/Servidor.
+7. Un diagrama de Pert (Fácil).
+
+Reducido: 
+(Aclaro, este era individual para cada alumno, no era el mismo para todos. Yo debía rendir 3 temas, pruebas, métricas y diseño).
+1. Que consideraciones se deberían tener en cuenta a la hora de desarrollar una interfaz de usuario.
+2. Diferencie Modelo de Repositorio y Modelo Cliente/Servidor.
+3. Defina y diferencia Pruebas de caja blanca y de caja negra. De un ejemplo de cada una.

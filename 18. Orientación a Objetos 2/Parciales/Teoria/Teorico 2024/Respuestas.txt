@@ -1,0 +1,24 @@
+1) 
+  a) Null object
+  b) Adapter
+2)
+  a) 
+      -Long method
+      -Feature envy
+      -Conditionals
+      -Comentarios
+  b)
+      -Descompose Conditional
+      -Move method (mover todo el parentesis del if a la clase habitacion como un metodo que devuelva un boolean)
+3)
+      A- F
+      B- F
+      C- V
+      D- F
+      E- V
+4)
+      A- F
+      B- V
+      C- V
+      D- F
+      E- F

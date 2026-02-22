@@ -1,0 +1,11 @@
+27/02/2013
+Completo:
+1. ¿Que es la planificacion?¿Cuales son los objetivos de la planificacion temporal y organizacional?.
+2. ¿Que es el diseño? Defina acoplamiento y cohesion y sus diferentes grados.
+3. ¿Que es la GCS?
+4. ¿Que son los riesgos?¿Como se clasifican?. Ejemplifique.
+5. Defina estimacion y los tipos de estimacion que conoce.
+6. ¿Que es el mantenimiento? Defina el rejuvenecimiento.
+7. Calcular camino critico (PERT + CMP)
+
+Las preguntas no estan en orden ni redactadas igual que en el final.

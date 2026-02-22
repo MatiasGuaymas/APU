@@ -1,0 +1,12 @@
+Final de IS2 - Completo - 6/2/13
+
+Completo:
+1. Enumere y describa las técnicas de estimación que conozca.
+2. Que es la gestión de configuración. Defina línea de base. Ejemplifique.
+3. Describa rejuvenecimiento.
+4. Una empresa de software (bla bla bla) lleva un proyecto con requisitos muy estrictos (bla bla) pero no tiene el personal necesario para cierto proyecto. Analice la siguiente situación: Es imposible encontrar el personal con las habilidades adecuadas.
+a) Analice el riesgo.
+b) Planifique (Estrategias de tratamientos de riesgos).
+5. Que consideraciones se deberían tener en cuenta a la hora de desarrollar una interfaz de usuario.
+6. Diferencie Modelo de Repositorio y Modelo Cliente/Servidor.
+7. Un diagrama de Pert (Fácil).

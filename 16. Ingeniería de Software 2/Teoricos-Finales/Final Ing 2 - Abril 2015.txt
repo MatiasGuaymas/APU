@@ -1,0 +1,6 @@
+1)Tipos de planificación organizacional vistos en la materia.
+2)Características de todos los riesgos
+3)Definir Recuperabilidad (principio de diseño)
+4)Diferencias entre modelo repositorio y modelo cliente servidor
+5)Que es GCS. Linea Base, ejemplifique
+6)Describa rejuvenecimiento
