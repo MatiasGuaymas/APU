@@ -1,0 +1,27 @@
+program prueba;
+var c: integer;
+procedure calcular(var b, a: integer);
+var
+    i: integer;
+begin
+    b:= 10;
+    i:= 0;
+    while(b > 0) do 
+        begin
+            a:= a+ b;
+            b:= b-2;
+            c:= c-b;
+            i:= i+1;
+        end;
+    writeln(i);
+    writeln('CALCULAR: ', 'a= ', a, ' b= ', b, ' c= ', c);
+end;
+var
+    a,b: integer;
+begin
+    b:= 80;
+    c:= 30;
+    writeln('PRIMERO: ', 'a= ', a, ' b= ', b, ' c= ', c);
+    calcular(a,b);
+    writeln('SEGUNDO: ', 'a= ', a, ' b= ', b, ' c= ', c);
+end.
